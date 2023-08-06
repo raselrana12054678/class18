@@ -1,0 +1,233 @@
+.header-area {
+    padding: 10px 0;
+    background: teal;
+    position: relative;
+}
+.logo-area {
+    margin-top: -6px;
+}
+.menu-area {
+    padding-top: 9px;
+    text-align: right;
+    position: relative;
+}
+.menu-area li {
+    list-style: none;
+    display: inline-block;
+}
+.menu-area a {
+    text-decoration: none;
+    margin-right: 40px;
+    text-transform: capitalize;
+    color: #fff;
+    transition: .6s;
+    position: relative;
+}
+.menu-area a:after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -10px;
+    display: block;
+    position: absolute;
+    background-color: red;
+    transition: .6s;
+}
+.menu-area a:hover:after {
+    width: 100%;
+}
+.btn {
+    border: 1px solid rgb(211, 8, 171);
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: .6s;
+    color: #ffff;
+}
+.btn:hover {
+    background: rgb(4, 190, 207);
+    color: #fff;
+}
+.btn a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* banner css  */
+.banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.banner img {
+    position: relative;
+}
+.banner:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: .78;
+    z-index: -1;
+}
+.banner-items {
+    padding-top: 19%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 9999;
+}
+h3 {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+/* priching area start  */
+.priching-area {
+    background-color: #c8bcbc;
+}
+.price-items {
+    background: var(--light-background-color, #FFF);
+    /* accentued-drop-shadow */
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    padding: 45px 30px;
+}
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'roboto';
+    padding-bottom: 15px;
+}
+h1 {
+    font-size: 48px;
+    padding: 10px 0;
+    font-weight: 700;
+    font-family: 'tahoma',sans-serif;
+    background-color: #f7f1f1;
+    margin-bottom: 15px;
+}
+sub {
+    font-size: 16px;
+    color: #333;
+}
+.icon-items i {
+     font-size: 25px;
+     margin-right: 20px;
+}
+.icon-items span {
+    font-size: 16px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+/* team-items  css  */
+.our-team {
+    background-color: aqua;
+}
+.team-items  img {
+    width: 100%;
+    padding-bottom: 25px;
+}
+.team-items h5 {
+    text-transform: capitalize;
+}
+
+/* newsletter-items css  */
+.newsletter-area {
+    background-color: #ddd;
+}
+h2 {
+    font-size: 48px;
+    text-transform: capitalize;
+    font-family: tahoma;
+    padding: 30px 0;
+}
+.subtitle input {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: 2px solid rgb(196, 208, 87);
+    border-radius: 6px;
+    padding: 10px 10px;
+}
+button {
+    padding: 10px 40px;
+    border-radius: 6px;
+    background-color: rgb(196, 208, 87);
+    border-color: rgb(196, 208, 87);
+}
+
+/* why-choise start  */
+.why-choise {
+    
+}
+.choise-image img {
+    width: 100%;
+    height: 100%;
+}
+.choice-point h4 {
+    font-size: 20px;
+    color: #333;
+    font-family: tahoma;
+    padding-bottom: 10px;
+}
+
+/* testimonial-items start  */
+.testimonial-area {
+    background-color: rgb(124, 190, 198);
+}
+.testimonial-items {
+    border: 1px solid #1a1818;
+    padding: 30px 20px;
+}
+.wrap-ts {
+    background-color: #ddd;
+    padding: 10px 10px;
+}
+.wrap-ts i {
+    z-index: -1;
+}
+.test-items {
+    display: flex;
+}
+.test-image img {
+    margin-right: 30px;
+}
+.user-content {
+    padding-top: 28px;
+}
+/* contact us css  */
+.title-items p {
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+/* contact area start  */
+iframe {
+    width: 100%;
+}
+
+form input {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 0;
+}
+form textarea {
+    width: 100%;
+    height: 150px;
+}
+/* foooter css  */
+.footer-area {
+    padding: 30px;
+    background-color: rgb(16, 26, 233);
+}
